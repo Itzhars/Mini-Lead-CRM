@@ -1,0 +1,75 @@
+{
+  "leads": [
+    {
+      "id": "lead-1",
+      "firstName": "Sophia",
+      "lastName": "Martinez",
+      "email": "sophia.martinez@aerotech.com",
+      "phone": "+1 (555) 234-5678",
+      "company": "AeroTech Solutions",
+      "status": "CONTACTED",
+      "source": "Google Search",
+      "value": 4500,
+      "notes": "Inbound request regarding custom supply-chain hardware integrations. High priority prospect.",
+      "createdAt": "2026-05-18T10:00:00.000Z",
+      "updatedAt": "2026-05-19T21:00:00.000Z"
+    },
+    {
+      "id": "lead-2",
+      "firstName": "David",
+      "lastName": "Vance",
+      "email": "david.vance@omnicorp.com",
+      "phone": "+1 (555) 876-5432",
+      "company": "OmniCorp Global",
+      "status": "CONTACTED",
+      "source": "Cold Outreach",
+      "value": 12800,
+      "notes": "Initial introductory phone call completed. Expressed strong interest in software enterprise licensing package plans.",
+      "createdAt": "2026-05-15T09:15:00.000Z",
+      "updatedAt": "2026-05-19T22:30:00.000Z"
+    },
+    {
+      "id": "lead-3",
+      "firstName": "Elena",
+      "lastName": "Rostova",
+      "email": "elena.r@cybershield.io",
+      "phone": "+1 (555) 987-6543",
+      "company": "CyberShield Security",
+      "status": "QUALIFIED",
+      "source": "Referral",
+      "value": 9200,
+      "notes": "Budget and timelines verified. Aligns perfectly with our enterprise server auditing specifications.",
+      "createdAt": "2026-05-10T14:40:00.000Z",
+      "updatedAt": "2026-05-19T23:15:00.000Z"
+    },
+    {
+      "id": "lead-4",
+      "firstName": "Marcus",
+      "lastName": "Brody",
+      "email": "m.brody@apexsystems.net",
+      "phone": "+1 (555) 345-6789",
+      "company": "Apex Systems",
+      "status": "CONVERTED",
+      "source": "LinkedIn Campaign",
+      "value": 24500,
+      "notes": "Contract fully signed and initial payment cleared. Handed over to active accounts managers.",
+      "createdAt": "2026-05-01T11:00:00.000Z",
+      "updatedAt": "2026-05-18T16:00:00.000Z"
+    },
+    {
+      "id": "lead-5",
+      "firstName": "Sarah",
+      "lastName": "Jenkins",
+      "email": "sjenkins@novaretail.org",
+      "phone": "+1 (555) 456-7890",
+      "company": "Nova Retail Group",
+      "status": "LOST",
+      "source": "Website Ingestion",
+      "value": 1500,
+      "notes": "Declined due to internal budget restructuring. Logged as disqualified lost for follow-up next quarter.",
+      "createdAt": "2026-05-05T08:30:00.000Z",
+      "updatedAt": "2026-05-12T10:15:00.000Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
