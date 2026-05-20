@@ -96,7 +96,7 @@ Start the Vite local development server:
 ```bash
 npm run dev
 ```
-Open [http://localhost:5173](http://localhost:5173) in your web browser.
+Open mini-lead-vyug3qewq-itzhars-projects.vercel.app in your web browser.
 
 ### 4. Build Production Bundle
 To build the application and verify production bundle sizes, run:
