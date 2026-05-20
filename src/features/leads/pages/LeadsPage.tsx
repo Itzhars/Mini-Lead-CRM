@@ -96,7 +96,7 @@ export const LeadsPage: React.FC = () => {
         <TableSkeleton />
       ) : isError ? (
         <ErrorState
-          message={error?.message || "Could not retrieve leads from JSON-server database. Make sure localhost:3001 is active."}
+          message={error?.message || `Could not retrieve leads from JSON-server database. Make sure ${import.meta.env.VITE_API_URL || "http://localhost:3001"} is active.`}
           onRetry={refetch}
         />
       ) : filteredLeads.length === 0 ? (

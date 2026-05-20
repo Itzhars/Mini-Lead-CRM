@@ -15,7 +15,9 @@ export const SettingsPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<"profile" | "api" | "security">("profile")
   const [profileName, setProfileName] = useState("Harsh Vardhan")
   const [profileEmail, setProfileEmail] = useState("harsh@example.com")
-  const [apiUrl, setApiUrl] = useState("http://localhost:3001")
+  const [apiUrl, setApiUrl] = useState(
+    () => (import.meta.env.VITE_API_URL as string) || "http://localhost:3001"
+  )
   const [strictTransitions, setStrictTransitions] = useState(true)
   const [theme, setTheme] = useState<"light" | "dark">(
     () => (localStorage.getItem("crm_theme") as "light" | "dark") || "light"
