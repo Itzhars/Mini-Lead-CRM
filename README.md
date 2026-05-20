@@ -1,5 +1,9 @@
+
 # Mini Lead CRM
 
+## Screen Recording
+Project Demo Video:  
+https://drive.google.com/file/d/1RfBHgu0Z_qWCMwFk4aDAs0sHyeGrgFIH/view
 A high-performance, strictly typed React + TypeScript customer relationship management (CRM) application, engineered for pipeline tracking, prospect auditing, and smooth drag-and-drop workflow transitions.
 
 🔗 **Live Link**: [https://mini-lead-vyug3qewq-itzhars-projects.vercel.app](https://mini-lead-vyug3qewq-itzhars-projects.vercel.app)
