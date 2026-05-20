@@ -116,4 +116,4 @@ npm run build
 ---
 
 ## 🤖 AI Usage Note
-This system was engineered in collaboration with **Antigravity**, Google Deepmind's agentic AI coding assistant, leveraging production-grade React patterns, strict TypeScript design models, and highly responsive user interfaces.
+AI tools were used to speed up development, improve code structure, and review the project for possible issues. I reviewed and customized the generated suggestions according to the assignment requirements. The main application logic, status handling, UI behavior, and overall integration were understood, tested, and refined during development.
